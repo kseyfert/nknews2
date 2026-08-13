@@ -1,12 +1,29 @@
 /tmp
 /out-tsc
 
-/node_modules
+node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 /.pnp
 .pnp.js
+
+# Build output
+dist/
+build/
+*.tsbuildinfo
+
+# Next.js
+.next/
+out/
+
+# Turborepo
+.turbo/
+
+# Environment — .env.example IS committed, real .env files are not
+.env
+.env.*
+!.env.example
 
 .vscode/*
 
